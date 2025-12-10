@@ -9,7 +9,7 @@ app.use(cors());
 const pool = new Pool({
   host: "localhost",
   user: "postgres",      // PostgreSQL username
-  password: "shineka",
+  password: "",
   database: "texttospeech",  // your database
   port: 5432,
 });
